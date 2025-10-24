@@ -1,0 +1,467 @@
+[
+  {
+    "text": "hello everyone how are you doing this is",
+    "start": 0.32,
+    "duration": 5.24
+  },
+  {
+    "text": "mdte here with another quick tutorial",
+    "start": 2.56,
+    "duration": 4.759
+  },
+  {
+    "text": "today I'm going to be showing how to",
+    "start": 5.56,
+    "duration": 4.88
+  },
+  {
+    "text": "clear the Windows update cache in",
+    "start": 7.319,
+    "duration": 6.161
+  },
+  {
+    "text": "Windows 10 Windows automatically will",
+    "start": 10.44,
+    "duration": 5.04
+  },
+  {
+    "text": "cache all Windows update installation",
+    "start": 13.48,
+    "duration": 3.92
+  },
+  {
+    "text": "files when you download and install them",
+    "start": 15.48,
+    "duration": 4.559
+  },
+  {
+    "text": "onto your computer in Windows 10 as I'm",
+    "start": 17.4,
+    "duration": 4.4
+  },
+  {
+    "text": "sure many of you are aware it's an",
+    "start": 20.039,
+    "duration": 4.56
+  },
+  {
+    "text": "automated process with very limited user",
+    "start": 21.8,
+    "duration": 5.68
+  },
+  {
+    "text": "control one positive aspect about caches",
+    "start": 24.599,
+    "duration": 5.0
+  },
+  {
+    "text": "is that windows can reapply updates",
+    "start": 27.48,
+    "duration": 4.0
+  },
+  {
+    "text": "without having to download them again",
+    "start": 29.599,
+    "duration": 4.081
+  },
+  {
+    "text": "from their own servers online taking",
+    "start": 31.48,
+    "duration": 3.64
+  },
+  {
+    "text": "them more time",
+    "start": 33.68,
+    "duration": 4.64
+  },
+  {
+    "text": "bandwidth and just overall frustration",
+    "start": 35.12,
+    "duration": 4.84
+  },
+  {
+    "text": "it's going to be a lot easier to update",
+    "start": 38.32,
+    "duration": 4.48
+  },
+  {
+    "text": "files if there is a cache already stored",
+    "start": 39.96,
+    "duration": 6.56
+  },
+  {
+    "text": "on the computer however as time goes on",
+    "start": 42.8,
+    "duration": 6.2
+  },
+  {
+    "text": "and the cache gets larger and larger",
+    "start": 46.52,
+    "duration": 5.28
+  },
+  {
+    "text": "it'll just take up more hard drive space",
+    "start": 49.0,
+    "duration": 4.719
+  },
+  {
+    "text": "so in this tutorial I'll be showing you",
+    "start": 51.8,
+    "duration": 4.96
+  },
+  {
+    "text": "how to clear the update cache while this",
+    "start": 53.719,
+    "duration": 5.041
+  },
+  {
+    "text": "can be done using the disc cleanup",
+    "start": 56.76,
+    "duration": 4.52
+  },
+  {
+    "text": "utility it's not as thorough as some",
+    "start": 58.76,
+    "duration": 5.0
+  },
+  {
+    "text": "people would like and it doesn't do a",
+    "start": 61.28,
+    "duration": 6.28
+  },
+  {
+    "text": "complete 100% cleaning job so we're",
+    "start": 63.76,
+    "duration": 5.999
+  },
+  {
+    "text": "going to do the best method possible to",
+    "start": 67.56,
+    "duration": 5.32
+  },
+  {
+    "text": "get rid of as much of it as possible so",
+    "start": 69.759,
+    "duration": 5.081
+  },
+  {
+    "text": "what we're going to do is head over to",
+    "start": 72.88,
+    "duration": 4.279
+  },
+  {
+    "text": "our start butn and then we're going to",
+    "start": 74.84,
+    "duration": 4.48
+  },
+  {
+    "text": "type in",
+    "start": 77.159,
+    "duration": 4.521
+  },
+  {
+    "text": "Services we're going to right click on",
+    "start": 79.32,
+    "duration": 4.4
+  },
+  {
+    "text": "the services button and then we're going",
+    "start": 81.68,
+    "duration": 6.399
+  },
+  {
+    "text": "to left click on run as administrator",
+    "start": 83.72,
+    "duration": 4.359
+  },
+  {
+    "text": "with the services window open we want to",
+    "start": 91.479,
+    "duration": 4.401
+  },
+  {
+    "text": "go down to Windows update so we're going",
+    "start": 93.439,
+    "duration": 5.68
+  },
+  {
+    "text": "to just scroll down",
+    "start": 95.88,
+    "duration": 3.239
+  },
+  {
+    "text": "here okay so once you reach Windows",
+    "start": 100.2,
+    "duration": 5.0
+  },
+  {
+    "text": "update you want to right click on it and",
+    "start": 102.799,
+    "duration": 5.201
+  },
+  {
+    "text": "select",
+    "start": 105.2,
+    "duration": 2.8
+  },
+  {
+    "text": "stop okay so we can see the Windows",
+    "start": 109.36,
+    "duration": 4.439
+  },
+  {
+    "text": "update servers was stopped now that",
+    "start": 111.56,
+    "duration": 4.36
+  },
+  {
+    "text": "that's complete we want to head back",
+    "start": 113.799,
+    "duration": 4.721
+  },
+  {
+    "text": "over to our start button going to right",
+    "start": 115.92,
+    "duration": 4.839
+  },
+  {
+    "text": "click on it then we want to left click",
+    "start": 118.52,
+    "duration": 4.16
+  },
+  {
+    "text": "on",
+    "start": 120.759,
+    "duration": 6.121
+  },
+  {
+    "text": "run now we want to type in uppercase C",
+    "start": 122.68,
+    "duration": 6.48
+  },
+  {
+    "text": "colon forward",
+    "start": 126.88,
+    "duration": 4.439
+  },
+  {
+    "text": "slash",
+    "start": 129.16,
+    "duration": 5.68
+  },
+  {
+    "text": "windows for",
+    "start": 131.319,
+    "duration": 3.521
+  },
+  {
+    "text": "slash",
+    "start": 134.879,
+    "duration": 5.36
+  },
+  {
+    "text": "software",
+    "start": 137.239,
+    "duration": 3.0
+  },
+  {
+    "text": "distribution and then you want to click",
+    "start": 141.08,
+    "duration": 3.879
+  },
+  {
+    "text": "on",
+    "start": 142.8,
+    "duration": 2.159
+  },
+  {
+    "text": "enter once you're in the software",
+    "start": 148.84,
+    "duration": 4.16
+  },
+  {
+    "text": "distribution folder double click on the",
+    "start": 150.84,
+    "duration": 4.92
+  },
+  {
+    "text": "download folder not the one on the side",
+    "start": 153.0,
+    "duration": 5.0
+  },
+  {
+    "text": "here but the one in the center right",
+    "start": 155.76,
+    "duration": 4.32
+  },
+  {
+    "text": "underneath delivery",
+    "start": 158.0,
+    "duration": 3.959
+  },
+  {
+    "text": "optimization now what you want to do",
+    "start": 160.08,
+    "duration": 3.32
+  },
+  {
+    "text": "with the keyboard is hold down the",
+    "start": 161.959,
+    "duration": 4.161
+  },
+  {
+    "text": "control and a key to select all of the",
+    "start": 163.4,
+    "duration": 5.16
+  },
+  {
+    "text": "items in this list and then you can",
+    "start": 166.12,
+    "duration": 4.399
+  },
+  {
+    "text": "right",
+    "start": 168.56,
+    "duration": 6.88
+  },
+  {
+    "text": "click and then left click on delete",
+    "start": 170.519,
+    "duration": 4.921
+  },
+  {
+    "text": "and you can see how much space is being",
+    "start": 182.12,
+    "duration": 3.839
+  },
+  {
+    "text": "cleared as we delete the catch right now",
+    "start": 184.12,
+    "duration": 6.88
+  },
+  {
+    "text": "it's already almost at 400 megabytes",
+    "start": 185.959,
+    "duration": 5.041
+  },
+  {
+    "text": "and you might get some folder access",
+    "start": 213.76,
+    "duration": 3.679
+  },
+  {
+    "text": "denied just check mark in this box and",
+    "start": 215.2,
+    "duration": 4.319
+  },
+  {
+    "text": "do this for all current items and then",
+    "start": 217.439,
+    "duration": 4.681
+  },
+  {
+    "text": "left click on",
+    "start": 219.519,
+    "duration": 2.601
+  },
+  {
+    "text": "continue you have to have administrative",
+    "start": 224.0,
+    "duration": 7.0
+  },
+  {
+    "text": "privileges in order to do this",
+    "start": 226.319,
+    "duration": 4.681
+  },
+  {
+    "text": "if it says so canot find the item just",
+    "start": 243.079,
+    "duration": 3.401
+  },
+  {
+    "text": "click on this little box and do this for",
+    "start": 245.0,
+    "duration": 5.4
+  },
+  {
+    "text": "all current items and then left click on",
+    "start": 246.48,
+    "duration": 3.92
+  },
+  {
+    "text": "Skip and now we see that our folder is",
+    "start": 259.12,
+    "duration": 5.44
+  },
+  {
+    "text": "empty so this pretty much clears most",
+    "start": 261.72,
+    "duration": 4.64
+  },
+  {
+    "text": "except for this one file in here it's",
+    "start": 264.56,
+    "duration": 3.359
+  },
+  {
+    "text": "probably still being actively used on",
+    "start": 266.36,
+    "duration": 3.96
+  },
+  {
+    "text": "the computer um just don't worry about",
+    "start": 267.919,
+    "duration": 4.641
+  },
+  {
+    "text": "it for the most part the cache has been",
+    "start": 270.32,
+    "duration": 4.8
+  },
+  {
+    "text": "cleared um there's also further options",
+    "start": 272.56,
+    "duration": 4.88
+  },
+  {
+    "text": "you could take this and go into deleting",
+    "start": 275.12,
+    "duration": 4.079
+  },
+  {
+    "text": "some files within the delivery",
+    "start": 277.44,
+    "duration": 4.44
+  },
+  {
+    "text": "optimization folder however that is much",
+    "start": 279.199,
+    "duration": 4.521
+  },
+  {
+    "text": "less significant than what we just did",
+    "start": 281.88,
+    "duration": 3.96
+  },
+  {
+    "text": "right here today and in most cases would",
+    "start": 283.72,
+    "duration": 5.319
+  },
+  {
+    "text": "be unnecessary so I hope this tutorial",
+    "start": 285.84,
+    "duration": 5.12
+  },
+  {
+    "text": "helped you guys out and I will see you",
+    "start": 289.039,
+    "duration": 6.321
+  },
+  {
+    "text": "in the next video goodbye",
+    "start": 290.96,
+    "duration": 4.4
+  }
+]

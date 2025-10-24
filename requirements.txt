@@ -1,0 +1,23 @@
+# VideoAgentTrek Requirements
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0,<2.0  # <2.0 for compatibility
+tqdm>=4.65.0
+
+# Video processing
+# Note: FFmpeg must be installed separately (system package)
+
+# Cursor detection (optional, for preprocessing)
+ultralytics>=8.0.0
+
+# GPT-based stages (Stage 6 & 8)
+openai>=1.0.0
+
+# Optional: For Stage 8 retry logic
+# Uncomment if using inner monologue generation:
+# backoff>=2.2.0
+
