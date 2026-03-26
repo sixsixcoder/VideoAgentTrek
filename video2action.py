@@ -47,10 +47,12 @@ def get_videos_to_process(video_id=None):
     if video_id:
         video_dir = raw_data_dir / video_id
         video_path = video_dir / f"{video_id}.mp4"
+        transcript_path = video_dir / f"{video_id}_transcript.json"
         if not video_path.exists():
             logger.error(f"Video not found: {video_path}")
             return []
-        
+        if not transcript_path.exists():
+            logger.warning(f"Transcript not found for {video_id}, proceeding without it")
         return [{
             'video_id': video_id,
             'video_path': str(video_path),

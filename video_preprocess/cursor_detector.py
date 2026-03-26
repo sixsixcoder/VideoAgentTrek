@@ -186,6 +186,7 @@ class CursorDetector:
             Dictionary containing detection results and analysis
         """
         video_path = Path(video_path)
+        transcript_path = Path(video_path.parent, video_path.stem + "_transcript.json")
         
         if not video_path.exists():
             raise FileNotFoundError(f"Video not found: {video_path}")
@@ -264,6 +265,7 @@ class CursorDetector:
         result = {
             "video_id": video_path.stem,
             "video_path": str(video_path),
+            "transcript_path": str(transcript_path),
             "metadata": metadata,
             "analysis": {
                 "total_frames": metadata["total_frames"],

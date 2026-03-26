@@ -97,6 +97,7 @@ class PreprocessPipeline:
         """
         video_path = Path(video_path)
         video_id = video_path.stem
+        transcript_path = Path(video_path.parent, video_path.stem + "_transcript.json")
         
         # Create output directory for this video
         output_dir = Path(self.config.output_dir) / video_id
@@ -124,6 +125,7 @@ class PreprocessPipeline:
             error_result = {
                 "video_id": video_id,
                 "video_path": str(video_path),
+                "transcript_path": str(transcript_path),
                 "error": str(e),
                 "decision": {
                     "keep": False,
@@ -151,6 +153,7 @@ class PreprocessPipeline:
             json.dump({
                 "video_id": result["video_id"],
                 "video_path": result["video_path"],
+                "transcript_path": result["transcript_path"],
                 "decision": result["decision"],
                 "analysis_summary": {
                     "cursor_percentage": result["analysis"]["cursor_percentage"],

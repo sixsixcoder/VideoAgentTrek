@@ -57,6 +57,7 @@ def get_preprocessed_videos(preprocess_dir: str, keep_only: bool = True) -> List
             video_info = {
                 "video_id": decision.get("video_id"),
                 "video_path": decision.get("video_path"),
+                "transcript_path": decision.get("transcript_path"),
                 "keep": keep,
                 "cursor_percentage": decision.get("analysis_summary", {}).get("cursor_percentage", 0.0),
                 "preprocessing_dir": str(video_dir)
