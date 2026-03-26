@@ -7,6 +7,7 @@ opencv-python>=4.8.0
 Pillow>=10.0.0
 numpy>=1.24.0,<2.0  # <2.0 for compatibility
 tqdm>=4.65.0
+qwen-vl-utils>=0.0.14
 
 # Video processing
 # Note: FFmpeg must be installed separately (system package)

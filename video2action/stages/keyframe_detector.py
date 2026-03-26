@@ -224,6 +224,8 @@ class KeyframeDetector:
                 # Process with model (matching reference)
                 text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
                 images, videos, video_kwargs = process_vision_info(messages, return_video_kwargs=True)
+                if isinstance(video_kwargs.get('fps'), list):
+                    video_kwargs['fps'] = video_kwargs['fps'][0] if video_kwargs['fps'] else 2.0
                 inputs = processor(text=text, images=images, videos=videos, padding=True, return_tensors="pt", **video_kwargs)
                 
                 # Move to GPU
